@@ -1,0 +1,3 @@
+amino-new.py
+gtts
+os
