@@ -19,7 +19,7 @@ from io import BytesIO
 from getpass import getpass
 
 
-sid=("AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICJlZmQyYTg5ZC01YWMwLTRkNjYtYTdkMy1lY2I0NTZmM2MwNzkiLCAiNSI6IDE2MzI1MzYzOTQsICI0IjogIjc5LjIzNS4xNjYuMjgiLCAiNiI6IDEwMH1LKkiFsz-kvRd9VghfqpOH0-ajkA")
+sid=("AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICIxNWNiNTlkOS1jNDZjLTQyZWEtYTY2MS05NTg1ZjYzNzk3OWYiLCAiNSI6IDE2MzI1NzIzMDMsICI0IjogIjc5LjIzNS4xNjYuMjgiLCAiNiI6IDQwMH0EyD9Ti-I1tq3b3PgcZ0Z3H0tqcg") 
 client = amino.Client()
 
 client.login_sid(sid)
