@@ -24,7 +24,7 @@ client = amino.Client()
 
 client.login_sid(sid)
   #вводим пароль и почту от аккаунта бота
-sub_client = amino.SubClient(comId='163345563', profile=client.profile) #вместо "id" введите айди сообщества, в котором будет работать чат
+sub_client = amino.SubClient(comId='148528461', profile=client.profile) #вместо "id" введите айди сообщества, в котором будет работать чат
 print('Bot status: True! Bot was login')
 time.sleep(1) # Пишет это хуйня, когда бот зашëл на аккаунт.
 print(' ')
