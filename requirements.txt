@@ -1,2 +1,2 @@
-amino-new.py
-gtts
+pyTelegramBotAPI
+dick.py
