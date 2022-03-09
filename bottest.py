@@ -2,14 +2,12 @@ import amino
 import telebot
 import time
 
-Email = "danial7987@gmail.com"
-Password = "o123o123"
 
 client = amino.Client()
 link = client.get_from_code("http://aminoapps.com/p/evxnta")
 comId = link.path[1:link.path.index("/")]
 chatId = link.objectId
-client.login(Email, Password)
+client.login_sid("AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICJlZjMxZmQ3MC1hNzgyLTQ1ZGYtYjBkMS03ZmM3MGQyMTY2NjUiLCAiNSI6IDE2NDY4NjQxMzEsICI0IjogIjc5LjIzNS4xNzEuNjAiLCAiNiI6IDEwMH1eBQOh2nA8EmklmfMXIJ7jZSWOpw")
 sub= amino.SubClient(comId=comId, profile=client.profile)
 
 token = "5218688832:AAFEDBG9Udpd_XSiZ470dSBQlp50L00FCjg"
